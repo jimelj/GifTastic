@@ -1,13 +1,6 @@
-varl;
-aaa
-;
-staticsasadsadasdasc ;
-ss
+var apiKey = 'dc6zaTOxFJmzC';
 
-var;
-kkjs;
 
-for (var i = 0; i < array.dlength; i++) {
-  array[i]
-};
-wdqsds
+
+
+var queryUrlBase = 'http://api.giphy.com/v1/gifs/search?api_key=' + apiKey;
