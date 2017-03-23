@@ -39,9 +39,9 @@ function giphyImages() {
                     // var imgStill = GiphyData.data[i].images.fixed_height_still.url;
                     // var imgVid = GiphyData.data[i].images.original.url;
                     $(imageHolder).append("<img src='" + GiphyData.data[i].images.fixed_height.url  + "'style='display:none'>");
-                    $(imageHolder).append("<img src='" + GiphyData.data[i].images.fixed_height_still.url  + "'>");
+                    $(imageHolder).append("<img src='" + GiphyData.data[i].images.fixed_height_still.url + "'>");
                     $(imageHolder).append(h3);
-                    $(h3).append('Rating: ' + GiphyData.data[i].rating);
+                    $(h3).append('Rating: ' + GiphyData.data[i].rating.toUpperCase());
 
                       // console.log(imgStill);
                       // console.log(imgVid);
