@@ -11,3 +11,11 @@ body {
 }
 
 .bg-success {background-color: lightgreen ;}
+
+.imgDiv {
+  margin: 10px;
+  border: 1px solid black;
+  background-color: lightgreen;
+
+
+}

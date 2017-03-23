@@ -24,16 +24,23 @@ function giphyImages() {
                 //Create HTML
                 for (var i = 0; i < GiphyData.data.length; i++) {
                     var imageHolder = $('<div>');
-                    imageHolder.addClass('test text-center');
+                    imageHolder.addClass('imgDiv pull-left text-center');
                     imageHolder.attr('id', 'image#' + i);
+                    var h3 = $('<h3>');
+                    h3.addClass('ratingsTag');
                     $('#animalsDiv').append(imageHolder);
+
+
 
                     console.log(GiphyData.data[i].images.original.url);
                     console.log(GiphyData.data[i].images.original_still.url);
                     console.log(GiphyData.data[i].rating);
 
-                    $(imageHolder).append("<img src='" + GiphyData.data[i].images.original.url + "'>");
-                    $(imageHolder).append('<h3>' + GiphyData.data[i].rating + '</h3>');
+                    $(imageHolder).append("<img src='" + GiphyData.data[i].images.original_still.url + "'>");
+                    $(imageHolder).append(h3);
+                    $(h3).append('Rating: ' + GiphyData.data[i].rating);
+
+
                     }
 
 
