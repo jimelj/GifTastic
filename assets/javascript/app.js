@@ -1,6 +1,6 @@
 var apiKey = 'dc6zaTOxFJmzC';
 var queryUrlBase = 'https://api.giphy.com/v1/gifs/search?api_key=' + apiKey;
-var Animals = ["Dog", "Cat", "Snake", "Parrot", "Whale", "Dolphin", "Monkey", "Rat", "Lion", "Tiger"];
+var Animals = ["Dog", "Cat", "Snake", "Parrot", "Whale", "Dolphin", "Monkey", "Rat", "Lion", "Bear", "Deer", "Red Panda", "Hedgehog","Panda", "Zebra", "Lynx"];
 // var limit = 10;
 
 
