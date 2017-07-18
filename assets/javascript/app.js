@@ -63,13 +63,6 @@ function giphyImages() {
 
         }
 
-
-
-
-
-
-
-
     function renderButtons() {
 
         // (this is necessary otherwise you will have repeat buttons)
@@ -96,9 +89,6 @@ function giphyImages() {
         $('#animalInput').val('');
 
     });
-
-
-
 
     renderButtons();
 
